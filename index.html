@@ -5,9 +5,217 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carousel</title>
-    <link rel="stylesheet" href="styles.css">
+
+    
+
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- ICONOS flecha carousel 3 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<!-- BARRA DE NAVEGACION  -->
+
+<ul class="navegacion">
+    <li> <a href="#home">Inicio </a></li>
+    <li> <a href="#libros">Libros</a></li>   
+     <li> <a href="#fotografias">Fotografias</a></li>
+
+</ul>
+
+
+
+
+    <!-- CAROUSEL UNO START  -->
+    <div class="slider1">
+
+
+    <div class="slider" id="home">
+
+        <ul>
+            <li> <img class="slider1" src="FOTOS/carousel1/coderSlider1.png" alt="slider1"></li>
+            <li> <img class="slider2" src="FOTOS/carousel1/coderSlider2.png" alt="slider2"></li>
+            <li> <img class="slider3" src="FOTOS/carousel1/coderSlider3.png" alt="slider3"></li>
+            <li> <img class="slider4" src="FOTOS/carousel1/coderSlider4.png" alt="slider4"></li>
+
+        </ul>
+    </div>
+    </div>
+
+    <!-- CAROUSEL UNO  END-->
+
+        <!-- CAROUSEL DOS START  -->
+
+<div class="slider2" id="libros">
+
+    <article class="products"  >
+    <section class="product-title" id="products"> 
+      <h2>Libros</h2>
+      <div class="divider"></div>
+    </section>
+
+    <div class="carousel">
+        <a class="carousel-item"
+          href="https://www.amazon.es/gp/product/B07S2ZF286/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0!" target="blank"><img
+            src="FOTOS/carousel2/legado.png"></a>
+        <a class="carousel-item" href="https://www.amazon.es/gp/product/B07TW8TZS5/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i2"
+          target="blank"><img src="FOTOS/carousel2/Kasicasting_poster.png"></a>
+        <a class="carousel-item" href="https://www.amazon.es/gp/product/B08GPKSK7C/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i1"
+          target="blank"><img src="FOTOS/carousel2/DespiertaJulia_poster.png"></a>
+        <a class="carousel-item" href="https://www.hijosdelhule.com/" target="blank"><img
+            src="FOTOS/carousel2/universosRelatos.png"></a>
+        <a class="carousel-item" href="http://sandrabarrachina.blogspot.com/"><img src="FOTOS/carousel2/cuentame.png"></a>
+      </div>
+
+    </article>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="carousel.js"></script>
+
+<!-- CAROUSEL DOS END-->
+
+
+<!-- CAROUSEL TRES START  -->
+
+<div class="trabajos" id="fotografias">
+
+    <h1>Fotografías</h1>
     
+    <section class="galeria">
+
+   <a href="#image1">
+     <img src="fotos/carousel3/1.png" alt=""></a>
+   
+   <a href="#image2" >
+     <img src="fotos/carousel3/2.png" alt=""></a>
+   
+   <a href="#image3">
+     <img src="fotos/carousel3/3.png" alt=""></a>
+   
+   <a href="#image4" >
+     <img src="fotos/carousel3/4.png" alt=""></a>
+   
+   <a href="#image5">
+     <img src="fotos/carousel3/5.png" alt=""></a>
+   
+     <a href="#image6">
+       <img src="fotos/carousel3/6.png" alt=""></a>
+     
+       <a href="#image7">
+         <img src="fotos/carousel3/7.png" alt=""></a>
+   
+   
+         <a href="#image8">
+           <img src="FOTOS/carousel3/8.png" alt=""></a>
+   
+           
+             
+   </section>
+
+   <article class="light-box" id="image1">
+   <a href="#image8" class="next"><i class="fas fa-arrow-left"></i></a>
+   <img src="fotos/carousel3/1.png" alt="">
+   
+   <a href="#image2" class="next"><i class="fas fa-arrow-right"></i>
+   </a>
+   <a href="#" class="close">X</a>
+   
+   
+   </article>
+   
+   
+   <article class="light-box" id="image2">
+     <a href="#image1" class="next"><i class="fas fa-arrow-left"></i></a>
+     <img src="fotos/carousel3/2.png" alt="">
+     
+     <a href="#image3" class="next"><i class="fas fa-arrow-right"></i>
+     </a>
+     <a href="#" class="close">X</a>
+     
+     
+     </article>
+   
+     <article class="light-box" id="image3">
+       <a href="#image2" class="next"><i class="fas fa-arrow-left"></i></a>
+       <img src="fotos/carousel3/3.png" alt="">
+       
+       <a href="#image4" class="next"><i class="fas fa-arrow-right"></i>
+       </a>
+       <a href="#" class="close">X</a>
+       
+       
+       </article>
+   
+       <article class="light-box" id="image4">
+         <a href="#image3" class="next"><i class="fas fa-arrow-left"></i></a>
+         <img src="fotos/carousel3/4.png" alt="">
+         
+         <a href="#image5" class="next"><i class="fas fa-arrow-right"></i>
+         </a>
+         <a href="#" class="close">X</a>
+         
+         
+         </article>
+   
+         <article class="light-box" id="image5">
+           <a href="#image4" class="next"><i class="fas fa-arrow-left"></i></a>
+           <img src="fotos/carousel3/5.png" alt="">
+           
+           <a href="#image6" class="next"><i class="fas fa-arrow-right"></i>
+           </a>
+           <a href="#" class="close">X</a>
+           
+           
+           </article>
+   
+           <article class="light-box" id="image6">
+             <a href="#image5" class="next"><i class="fas fa-arrow-left"></i></a>
+             <img src="fotos/carousel3/6.png" alt="">
+             
+             <a href="#image7" class="next"><i class="fas fa-arrow-right"></i>
+             </a>
+             <a href="#" class="close">X</a>
+             
+             
+             </article>
+   
+             <article class="light-box" id="image7">
+               <a href="#image6" class="next"><i class="fas fa-arrow-left"></i></a>
+               <img src="fotos/carousel3/7.png" alt="">
+               
+               <a href="#image8" class="next"><i class="fas fa-arrow-right"></i>
+               </a>
+               <a href="#" class="close">X</a>
+               
+             </article>
+   
+             <article class="light-box" id="image8">
+               <a href="#image7" class="next"><i class="fas fa-arrow-left"></i></a>
+               <img src="fotos/carousel3/8.png" alt="">
+               
+               <a href="#image1" class="next"><i class="fas fa-arrow-right"></i>
+               </a>
+               <a href="#" class="close">X</a>
+               
+             </article>
+   
+             
+       </div>
+   
+   <!-- CAROUSEL TRES END-->
+   <br><br>
+
+
+<!-- FOOTER -->
+<footer class="footer" > SANDRA BARRACHINA CODE</footer>
 </body>
 </html>
