@@ -36,6 +36,10 @@ Font-awesome:
     Fotografías realizadas por mi que puedes encontrarlas en mi perfil de Flickr
     https://www.flickr.com/photos/120700302@N02/
 
+![Captura de pantalla 2022-10-04 a las 11 19 27](https://user-images.githubusercontent.com/92207940/193783386-d29e6702-deef-4610-9bd4-db17df2be54a.png)
 
+![Captura de pantalla 2022-10-04 a las 11 19 38](https://user-images.githubusercontent.com/92207940/193783434-4d308059-3131-42ab-82b9-b78312980925.png)
+
+![Captura de pantalla 2022-10-04 a las 11 19 46](https://user-images.githubusercontent.com/92207940/193783452-a4aa9a52-afe0-49ae-a159-c134fdeb97d8.png)
 
 
